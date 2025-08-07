@@ -1,0 +1,39 @@
+{
+  "card": {
+    "generic": {
+      "other": "Andere",
+      "untracked": "Niet getraceerd"
+    },
+    "power_sankey": {
+      "live_power_flow": "Live energie stroom"
+    },
+    "energy_sankey": {
+      "energy_distribution_today": "Energie distributie vandaag"
+    }
+  },
+  "editor": {
+    "card": {
+      "generic": {
+        "title": "Titel",
+        "max_consumer_branches": "Limiteer aantal verbruikstakken (0 voor ongelimiteerd)",
+        "appearance": "Uiterlijk",
+        "advanced_options": "Geavanceerde opties"
+      },
+      "power_sankey": {
+        "power_from_grid_entity": "Stroom van net (optioneel)",
+        "power_to_grid_entity": "Stroom naar net (optioneel)",
+        "generation_entity": "Stroom van opwekking (optioneel)",
+        "hide_small_consumers": "Groepeer verbruikers onder 20W",
+        "invert_battery_flows": "Batterijstroom is positief tijdens het laden",
+        "battery_charge_only_from_generation": "De batterij laadt uitsluitend op met zelf opgewekte energie",
+        "battery_hint_std": "Stroom van batterij (een gecombineerde waarde per batterij, positief = ontladen)",
+        "battery_hint_inverted": "Stroom van batterij (een gecombineerde waarde per batterij, positief = laden)",
+        "independent_grid_in_out": "Gebruik aparte sensoren voor net-invoer en net-uitvoer"
+      },
+      "energy_sankey": {
+        "hide_small_consumers": "Groepeer verbruikers onder de 0,1kWh",
+        "battery_charge_only_from_generation": "De batterij laadt uitsluitend op met zelf opgewekte energie"
+      }
+    }
+  }
+}
